@@ -20,7 +20,7 @@ let numOfFlip = parseInt(prompt("Please enter the amount of time to flip the coi
 for (let i = 0; i < numOfFlip; i++)
 {
     coinFlip = Math.round(Math.random())
-    coinFlip === 0 ? document.write("Heads\n") : document.write("Tails\n")
+    coinFlip === 0 ? console.log("Heads\n") : console.log("Tails\n")
 }
 
 
