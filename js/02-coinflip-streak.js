@@ -26,6 +26,9 @@ do
         console.log("Heads")
     }
     else
+    {
+        console.log("Tails")
         break
+    }
 
 } while (true)
